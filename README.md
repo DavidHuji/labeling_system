@@ -1,2 +1,2 @@
 # labeling_system
-Simple python script for a quick image labeling 
+A simple python script for a quick image labeling 
