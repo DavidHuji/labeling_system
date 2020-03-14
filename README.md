@@ -2,7 +2,7 @@
 A simple python script for a quick image labeling.
 Given an images directory, the script iterativelly presents random patches and wait for getting a lable from the user, when the user press the lable, it saves the patch when it's name contains the given lable and the patch source, then the next itration starts.
 
-##usage
+## Usage
 -1- First make sure you have the required Python packeges (you can run pip install -r requirements.txt).
 -2- Run the following: python main.py input_folder outputs_folder patch_size resize_factor
                       Example: python main.py C:\labeling_system\folder_that_contains_all_the_images  C:\Desktop\labeling_system\folder_for_saving_patchs_with_labels 60 2
