@@ -10,7 +10,7 @@ At the input folder, only the following formats are supported now: jpg, png and 
 python main.py input_folder outputs_folder patch_size resize_factor
 Example: python main.py C:\labeling_system\folder_that_contains_all_the_images C:\Desktop\labeling_system\folder_for_saving_patchs_with_labels 60 2
                                                 
-If your inputs are with npz format, y'll need to add also the channel index at the end, so if the channel index is 3, ut will be as following:
+If your inputs are with npz format, you will also need to add the channel index at the end, so if the channel index is 3, ut will be as following:
 
 python main.py C:\labeling_system\folder_that_contains_all_the_images  C:\Desktop\labeling_system\folder_for_saving_patchs_with_labels 60 2 3
 
