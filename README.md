@@ -4,7 +4,9 @@ Given an images directory, the script iterativelly presents random patches and w
 At the input folder, only the following formats are supported now: jpg, png and npz.
 
 ## Usage
-  -1-   First make sure you have the required Python packeges (you can run pip install -r requirements.txt).
+  
+  ###-1-
+  First make sure you have the required Python packeges (you can run pip install -r requirements.txt).
         Also make sure your images are all in the same directory.
 
   -2-   Run the following: 
