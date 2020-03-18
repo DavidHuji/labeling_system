@@ -17,8 +17,6 @@ from pathlib import Path
 LABELS = ['1', '2', '3', '4']
 
 
-print(f'inputs are:')
-
 print(f'inputs are: {sys.argv[1:]}')
 input_folder, outputs_folder, patch_size, resize_factor = sys.argv[1:5]
 if not os.path.exists(input_folder):
