@@ -1,12 +1,12 @@
 # labeling_system
 A simple python script for a quick image labeling.
-Given an images directory, the script iterativelly presents random patches and wait for getting a lable from the user, when the user press the lable, it saves the patch when it's name contains the given lable and the patch source, then the next itration starts.
+Given an images directory, the script iterativelly presents random patches and wait for getting a label from the user, when the user press the label, it saves the patch when it's name contains the given label and the patch source, then the next itration starts.
 At the input folder, only the following formats are supported now: jpg, png and npz.
 
 ## Usage
   
   #### -1-
-First make sure you have the required Python packeges (you can run pip install -r requirements.txt).
+First make sure you have Python 3.6+ and the required Python packeges (you can run pip install -r requirements.txt).
         Also make sure your images are all in the same directory.
 
   #### -2-   
