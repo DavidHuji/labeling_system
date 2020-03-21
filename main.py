@@ -43,7 +43,7 @@ def press(event):
     if event.key in LABELS:
         img_name = str(img_path).split('.')[-2].split('\\')[-1]
         img_saver.imsave(Path(outputs_folder) / f'Lable_{int(event.key)} {(img_name, rand_x, rand_y)}',
-                         cur_patch)
+                         cur_patch, cmap='gray')
         print(f'Lable_{int(event.key)} {(img_name, rand_x, rand_y)} was saved successfully')
     plt.close()
 
